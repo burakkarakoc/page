@@ -1,5 +1,6 @@
 import { HashRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, EarthCanvas } from "./components";
+import { About, Contact, Experience, Navbar, Tech, Works, StarsCanvas, EarthCanvas } from "./components";
+// Feedbacks, Hero,
 
 const App = () => {
   return (
