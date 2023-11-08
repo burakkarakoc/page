@@ -1,10 +1,11 @@
 {
-  "homepage": "https://burakkarakoc.github.io/personal-website",
+  "homepage": "https://burakkarakoc.github.io/",
   "name": "3dfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
     "dev": "vite",
